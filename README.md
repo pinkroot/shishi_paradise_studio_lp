@@ -2,6 +2,8 @@
 
 Cyber Funky Food EDM の公式LP。ビルド不要の静的サイト（HTML/CSS/JS のみ）。
 
+**本番URL: https://sushiedm.com/**（Cloudflare Pages・GitHub連携でpush時に自動デプロイ）
+
 ## 構成
 
 ```
