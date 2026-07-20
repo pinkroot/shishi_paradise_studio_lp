@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sushi Paradise Studio — Cyber Funky Food EDM</title>
+  <meta name="description" content="Sushi Paradise Studio — Cyber Funky Food EDM. Every food deserves a beat. Neon-drenched food-themed electronic music, streaming everywhere.">
+  <meta property="og:title" content="Sushi Paradise Studio">
+  <meta property="og:description" content="Cyber Funky Food EDM — Every food deserves a beat.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/logo.png">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Zen+Kaku+Gothic+New:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#top" class="header-brand">
+      <img src="assets/logo.png" alt="Sushi Paradise Studio logo" class="header-logo">
+      <span class="header-name">SUSHI PARADISE STUDIO</span>
+    </a>
+    <nav class="header-nav">
+      <a href="#listen" data-i18n="nav_listen">Listen</a>
+      <a href="#music" data-i18n="nav_music">Music</a>
+      <a href="#about" data-i18n="nav_about">About</a>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">日本語</button>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-inner">
+        <img src="assets/logo.png" alt="Sushi Paradise Studio" class="hero-logo">
+        <h1 class="hero-title">
+          <span class="neon-line neon-pink">SUSHI PARADISE</span>
+          <span class="neon-line neon-cyan">STUDIO</span>
+        </h1>
+        <p class="hero-tagline" data-i18n="hero_tagline">Every food deserves a beat.</p>
+        <p class="hero-sub" data-i18n="hero_sub">Cyber Funky Food EDM — 39 tracks and counting.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-spotify" href="https://open.spotify.com/intl-ja/artist/4VVGJjybRkbaH8TXYIydF6" target="_blank" rel="noopener">
+            <span class="btn-icon">&#9654;</span><span data-i18n="cta_spotify">Listen on Spotify</span>
+          </a>
+          <a class="btn btn-youtube" href="https://www.youtube.com/@SushiEDM" target="_blank" rel="noopener">
+            <span class="btn-icon">&#9654;</span><span data-i18n="cta_youtube">Watch on YouTube</span>
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://x.com/SushiEDM" target="_blank" rel="noopener" aria-label="X">X</a>
+          <a href="https://www.instagram.com/SushiEDM" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+          <a href="https://www.tiktok.com/@SushiEDM" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
+          <a href="https://www.youtube.com/@SushiEDM" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+        </div>
+      </div>
+      <div class="hero-food-icons" aria-hidden="true">
+        <span>&#127843;</span><span>&#127829;</span><span>&#127839;</span><span>&#127828;</span><span>&#127849;</span><span>&#127846;</span><span>&#127859;</span><span>&#129387;</span>
+      </div>
+    </section>
+
+    <!-- ============ LISTEN NOW ============ -->
+    <section id="listen" class="section">
+      <h2 class="section-title neon-cyan" data-i18n="listen_title">LISTEN NOW</h2>
+      <p class="section-lead" data-i18n="listen_lead">Press play. Instant Cyber Funky Food EDM.</p>
+      <div class="listen-grid">
+        <div class="listen-card">
+          <h3 class="listen-card-title neon-green" data-i18n="listen_spotify">On Spotify</h3>
+          <iframe class="spotify-embed" title="Sushi Paradise Studio on Spotify"
+            src="https://open.spotify.com/embed/artist/4VVGJjybRkbaH8TXYIydF6?utm_source=generator&theme=0"
+            width="100%" height="420" frameborder="0" allowfullscreen
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            loading="lazy"></iframe>
+        </div>
+        <div class="listen-card">
+          <h3 class="listen-card-title neon-yellow" data-i18n="listen_mv">Music Video</h3>
+          <div class="yt-wrap">
+            <iframe title="TACOS Overdose — Music Video"
+              src="https://www.youtube-nocookie.com/embed/FSrMU6NK0XM"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen loading="lazy"></iframe>
+          </div>
+          <p class="listen-card-note" data-i18n="listen_mv_note">"TACOS Overdose" — where it all began.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DISCOGRAPHY ============ -->
+    <section id="music" class="section">
+      <h2 class="section-title neon-pink" data-i18n="music_title">ALL TRACKS</h2>
+      <p class="section-lead" data-i18n="music_lead">39 foods. 39 beats. Tap a jacket to play.</p>
+      <div id="song-grid" class="song-grid"></div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section section-about">
+      <h2 class="section-title neon-yellow" data-i18n="about_title">ABOUT</h2>
+      <div class="about-body">
+        <p data-i18n="about_p1">Sushi Paradise Studio serves Cyber Funky Food EDM — neon-drenched electronic music where every track celebrates one thing we all love: food.</p>
+        <p data-i18n="about_p2">From tacos to bagels, each song is a bite-size burst of funky beats, playful vocals, and glowing neon-sign visuals. New dishes are always cooking.</p>
+        <p data-i18n="about_p3">Follow @SushiEDM everywhere, and turn every meal into a party.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ MV MODAL ============ -->
+  <div id="mv-modal" class="mv-modal" hidden>
+    <div class="mv-modal-backdrop"></div>
+    <div class="mv-modal-box">
+      <button id="mv-close" class="mv-close" aria-label="Close">&times;</button>
+      <div class="yt-wrap"><iframe id="mv-frame" title="Music Video" src="about:blank" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>
+      <p id="mv-title" class="mv-modal-title"></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-socials">
+      <a href="https://open.spotify.com/intl-ja/artist/4VVGJjybRkbaH8TXYIydF6" target="_blank" rel="noopener">Spotify</a>
+      <a href="https://www.youtube.com/@SushiEDM" target="_blank" rel="noopener">YouTube</a>
+      <a href="https://x.com/SushiEDM" target="_blank" rel="noopener">X</a>
+      <a href="https://www.instagram.com/SushiEDM" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.tiktok.com/@SushiEDM" target="_blank" rel="noopener">TikTok</a>
+    </div>
+    <p class="footer-tag" data-i18n="footer_tag">Food &times; EDM &times; Neon</p>
+    <p class="footer-copy">&copy; 2026 Sushi Paradise Studio</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
