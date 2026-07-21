@@ -2,8 +2,8 @@
 "use strict";
 
 /* ---------------- song data ----------------
-   yt: YouTube MV video ID (001–020 published). Songs without a
-   published MV link out to the Spotify artist page instead. */
+   yt: YouTube MV video ID (正本: SushiParadiseStudio/SPS_MV_URLs.md)。
+   Songs without a published MV link out to the Spotify artist page instead. */
 const SPOTIFY_ARTIST_URL = "https://open.spotify.com/intl-ja/artist/4VVGJjybRkbaH8TXYIydF6";
 
 const SONGS = [
@@ -27,23 +27,23 @@ const SONGS = [
   { no: "018", title: "Pudding Panic", yt: "PTL2jWdLJks" },
   { no: "019", title: "Marry Me, Curry Love", yt: "cvacuDmCoYg" },
   { no: "020", title: "Yes! Sandwich", yt: "nKX4xfhGSUE" },
-  { no: "021", title: "Burrito Bazooka", yt: null },
-  { no: "022", title: "Gratin Kingdom", yt: null },
-  { no: "023", title: "Bacon Is My Beacon", yt: null },
-  { no: "024", title: "Yummy! Honey Toast", yt: null },
-  { no: "025", title: "Rolling Boiled Egg", yt: null },
-  { no: "026", title: "Bite Again, Juicy Steak", yt: null },
-  { no: "027", title: "Bread In My Bed", yt: null },
-  { no: "028", title: "Pancake Can't Take It More", yt: null },
-  { no: "029", title: "Cookie Can't Stop", yt: null },
-  { no: "030", title: "Meatball Got No Control", yt: null },
-  { no: "031", title: "Jumping Dumpling", yt: null },
-  { no: "032", title: "Cereal Loop, Serial Loop", yt: null },
-  { no: "033", title: "Buy More Sausage", yt: null },
-  { no: "034", title: "No! Spring Roll", yt: null },
-  { no: "035", title: "Nachos! Just One More!", yt: null },
-  { no: "036", title: "Yo! Yogurt", yt: null },
-  { no: "037", title: "Croissant Spiral", yt: null },
+  { no: "021", title: "Burrito Bazooka", yt: "r05ihI8HxYk" },
+  { no: "022", title: "Gratin Kingdom", yt: "fTffmFGDg98" },
+  { no: "023", title: "Bacon Is My Beacon", yt: "UD2qyBb8uLM" },
+  { no: "024", title: "Yummy! Honey Toast", yt: "SROxJ8ghCoc" },
+  { no: "025", title: "Rolling Boiled Egg", yt: "m7pjY7t2afM" },
+  { no: "026", title: "Bite Again, Juicy Steak", yt: "TDnXpEDsRE0" },
+  { no: "027", title: "Bread In My Bed", yt: "vbOj87SUDH0" },
+  { no: "028", title: "Pancake Can't Take It More", yt: "D5gL4RLd90A" },
+  { no: "029", title: "Cookie Can't Stop", yt: "xigsW8xaNKI" },
+  { no: "030", title: "Meatball Got No Control", yt: "MLCy9htjX9w" },
+  { no: "031", title: "Jumping Dumpling", yt: "6SG511vRa-c" },
+  { no: "032", title: "Cereal Loop, Serial Loop", yt: "lb_q3u0NnZE" },
+  { no: "033", title: "Buy More Sausage", yt: "ZFHor8IJnXU" },
+  { no: "034", title: "No! Spring Roll", yt: "u3MH9V6j1rk" },
+  { no: "035", title: "Nachos! Just One More!", yt: "1XSCQKRg1aA" },
+  { no: "036", title: "Yo! Yogurt", yt: "2a28CGXu0yU" },
+  { no: "037", title: "Croissant Spiral", yt: "Odf1nhjqP-I" },
   { no: "038", title: "Biri Biri Biryani", yt: null },
   { no: "039", title: "Hole Is Bagel Soul", yt: null },
 ];
