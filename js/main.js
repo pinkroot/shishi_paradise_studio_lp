@@ -47,6 +47,12 @@ const SONGS = [
   { no: "038", title: "Biri Biri Biryani", yt: "HjRIR3B7nHs" },
   { no: "039", title: "Hole Is Bagel Soul", yt: "_2DVs6AA6PM" },
   { no: "040", title: "Ice Cream? No! Sherbet!", yt: "L2gvhDO0y0I" },
+  { no: "041", title: "Waffle Wave", yt: null },
+  { no: "042", title: "Jelly Jelly Jiggle!", yt: null },
+  { no: "043", title: "Pre Pre Pretzel", yt: null },
+  { no: "044", title: "Flip That Omelet", yt: null },
+  { no: "045", title: "Macaron Madness", yt: null },
+  { no: "046", title: "Muffin Else Matters", yt: null },
 ];
 
 /* ---------------- i18n ---------------- */
